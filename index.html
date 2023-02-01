@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div class="card_component">
+      <div class="card_wrapper">
+        <div class="card card_previous" id="Italy">
+          <p class="card_header">Visit Alps</p>
+          <p class="card_place">Italy</p>
+          <p class="card_comment">Be astonished!</p>
+        </div>
+        <div class="card card_next" id="France">
+          <p class="card_header">Visit Alps</p>
+          <p class="card_place">France</p>
+          <p class="card_comment">Bonjour! Ca va?</p>
+        </div>
+        <div class="card card_current" id="Switzerland">
+          <p class="card_header">Visit Alps</p>
+          <p class="card_place">Switzerland</p>
+          <p class="card_comment">Loose yourself in the nature</p>
+        </div>
+      </div>
+      <button class="slide_button" id="button_left" onclick="on_button_left_click()">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="70"
+          height="70"
+          fill="currentColor"
+          class="bi bi-chevron-left"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
+          />
+        </svg>
+      </button>
+      <button class="slide_button" id="button_right" onclick="on_button_right_click()">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="70"
+          height="70"
+          fill="currentColor"
+          class="bi bi-chevron-right"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+          />
+        </svg>
+      </button>
+    </div>
+  </body>
+</html>
