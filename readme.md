@@ -1,6 +1,9 @@
 # Picture Slider   
 Picture Slider Component 
 
+![Pre-transition screenshot](./assets/readMe/pre.png)
+![Transition screenshot](./assets/readMe/past.png)
+
 ## Assets: 
 France-dxiane.jpg Photo by <a href="https://unsplash.com/@dxiane?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">dxiane</a> on <a href="https://unsplash.com/photos/Gfec0OXXmn8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
